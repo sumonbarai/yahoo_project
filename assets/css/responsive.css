@@ -1,0 +1,127 @@
+
+ @media (max-width: 480px) {
+    .header .main_menu ul {
+        padding: 20px 0 90px 0 !important;
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
+    }
+    .banner .banner_title p {
+        margin-bottom: 50px !important;
+    }
+ }
+ 
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .header .logo span {
+        text-align: left;
+        display: block;
+        width: 70%;
+        float: left;
+        font-size: 25px;   
+    }
+
+    .header .sub_menu{
+        opacity: 1;
+        visibility: visible;
+    }
+    .header .main_menu ul {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+        background-color: #c0392b;
+        padding: 20px 0 40px 0;
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
+    }
+    
+    .header .main_menu ul li {
+        float: none;
+        text-align: center;
+    }
+    .banner .banner_title h1 {
+        font-size: 40px !important;
+        padding-top: 0px !important;
+        line-height: 35px;
+    } 
+   
+    .banner .banner_title .text {
+        -webkit-transform: skewX(0deg);
+            -ms-transform: skewX(0deg);
+                transform: skewX(0deg);  
+    }
+
+    .banner .banner_title p {
+        -webkit-transform: skewX(0deg);
+            -ms-transform: skewX(0deg);
+                transform: skewX(0deg);
+        margin-bottom: 45px;
+    }
+    .foot .copyright span {
+        display: block;
+        text-align: center;
+    }
+    .foot .link_btn{
+        text-align: center;
+    }
+    .foot .link_btn a{
+        padding: 5px 0;  
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .header .logo span {
+        margin: 8px 0;
+        text-align: center;
+        display: block; 
+    }
+    .header .main_menu ul li a {
+        margin: 10px 2px;
+    }
+    .header .main_menu ul{
+        margin-bottom: 0;
+    }
+    .banner .banner_title h1 {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .banner .banner_title p {
+        margin: 0px 0;
+        padding: 12px 10px 12px 34px;
+        margin-bottom: 70px;
+    }
+    .section_padding {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .testimonial .items {
+        margin: 0px 0; 
+    }
+    .footer .section_heading{
+        margin-bottom: 25px;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .header .main_menu ul li a {
+        padding: 7px 5px;
+    }
+
+    .banner .banner_title h1 {
+        font-size: 48px;
+        padding-top: 50px;
+    }
+    .banner .banner_title p {
+        font-size: 18px;
+        margin-bottom: 80px;
+    }
+    .section_heading h2 {
+        font-size: 30px;
+    }
+ }
+ 
